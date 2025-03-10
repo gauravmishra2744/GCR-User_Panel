@@ -1,0 +1,49 @@
+/* Additional section styles */
+.section-divider {
+    height: 2px;
+    background: linear-gradient(to right, transparent, rgba(0,123,255,0.2), transparent);
+    margin: 3rem 0;
+}
+
+.section-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.1;
+    pointer-events: none;
+}
+
+.section-overlay {
+    position: relative;
+    z-index: 1;
+}
+
+/* Enhanced animations */
+.floating {
+    animation: floating 3s ease-in-out infinite;
+}
+
+@keyframes floating {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+}
+
+/* Section transitions */
+.section-transition {
+    position: relative;
+    overflow: hidden;
+}
+
+.section-transition::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background: linear-gradient(to bottom, transparent, #ffffff);
+    pointer-events: none;
+}

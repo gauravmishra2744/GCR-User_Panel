@@ -1,0 +1,104 @@
+/* Bundle offers and combo deals styles */
+.bundle-section {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.05);
+}
+
+.bundle-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 200%;
+    height: 100%;
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(255,255,255,0.3),
+        transparent
+    );
+    animation: shine 10s linear infinite;
+}
+
+.bundle-header .badge {
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    animation: pulse 2s infinite;
+}
+
+.bundle-product {
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.bundle-product:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.bundle-number {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    z-index: 2;
+}
+
+.bundle-number .badge {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0;
+    font-size: 1rem;
+}
+
+.bundle-product-image {
+    height: 150px;
+    overflow: hidden;
+}
+
+.bundle-product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.bundle-product:hover .bundle-product-image img {
+    transform: scale(1.1);
+}
+
+.bundle-summary {
+    background: linear-gradient(45deg, #f8f9fa, #ffffff);
+    border: none;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.bundle-features li {
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.bundle-pricing {
+    padding: 1rem;
+    background: rgba(0,0,0,0.02);
+    border-radius: 5px;
+}
+
+@keyframes shine {
+    to {
+        transform: translateX(50%);
+    }
+}
+
+@media (max-width: 768px) {
+    .bundle-section {
+        padding: 2rem 0;
+    }
+    
+    .bundle-product {
+        margin-bottom: 1rem;
+    }
+}

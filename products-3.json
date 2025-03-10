@@ -1,0 +1,76 @@
+{
+    "additional_products": [
+        {
+            "id": 25,
+            "name": "Luxury Watch Collection",
+            "price": 15999.99,
+            "category": "fashion",
+            "image": "Luxury Watch Collection.jpg",
+            "description": "Premium automatic watch with leather strap",
+            "rating": 4.9,
+            "stock": 15,
+            "features": ["Swiss Movement", "Sapphire Crystal", "Genuine Leather"],
+            "tags": ["featured", "luxury"]
+        },
+        {
+            "id": 26,
+            "name": "Smart Air Conditioner",
+            "price": 35999.99,
+            "category": "home",
+            "image": "Smart Air Conditioner.jpeg",
+            "description": "WiFi-enabled split AC with energy saving",
+            "rating": 4.7,
+            "stock": 20,
+            "features": ["Smart Control", "Energy Efficient", "Air Purification"],
+            "tags": ["smart-home", "new-arrival"]
+        },
+        {
+            "id": 27,
+            "name": "Electric Skateboard",
+            "price": 29999.99,
+            "category": "sports",
+            "image": "Electric Skateboard.jpg",
+            "description": "High-performance electric skateboard",
+            "rating": 4.6,
+            "stock": 25,
+            "features": ["25 km/h Speed", "Range 20km", "Quick Charge"],
+            "tags": ["trending", "featured"]
+        },
+        {
+            "id": 28,
+            "name": "Smart Mirror",
+            "price": 19999.99,
+            "category": "home",
+            "image": "Smart Mirror.jpg",
+            "description": "Touch-enabled smart mirror with display",
+            "rating": 4.5,
+            "stock": 15,
+            "features": ["Weather Info", "News Updates", "Voice Control"],
+            "tags": ["smart-home", "trending"]
+        },
+        {
+            "id": 29,
+            "name": "Designer Watch",
+            "price": 8999.99,
+            "category": "fashion",
+            "image": "Designer Watch.jpg",
+            "description": "Elegant designer watch with metal strap",
+            "rating": 4.8,
+            "stock": 30,
+            "features": ["Water Resistant", "Stainless Steel", "Warranty"],
+            "tags": ["featured", "new-arrival"]
+        },
+        {
+            "id": 30,
+            "name": "Smart Blender",
+            "price": 4999.99,
+            "category": "home",
+            "image": "Smart Blender.jpg",
+            "description": "App-controlled smart blender",
+            "rating": 4.4,
+            "stock": 40,
+            "features": ["Multiple Programs", "App Control", "Recipe Book"],
+            "tags": ["smart-home", "new-arrival"]
+        }
+    ]
+}

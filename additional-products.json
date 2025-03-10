@@ -1,0 +1,76 @@
+{
+    "additional_products": [
+        {
+            "id": 13,
+            "name": "4K Ultra HD Smart TV",
+            "price": 49999.99,
+            "category": "electronics",
+            "image": "4k hd smart tv.jpeg",
+            "description": "55-inch 4K Smart TV with HDR",
+            "rating": 4.7,
+            "stock": 25,
+            "features": ["4K Resolution", "Smart Features", "HDR Support"],
+            "tags": ["featured", "trending"]
+        },
+        {
+            "id": 14,
+            "name": "Designer Leather Handbag",
+            "price": 3999.99,
+            "category": "fashion",
+            "image": "Designer Leather Handbag.jpg",
+            "description": "Premium leather handbag with gold accents",
+            "rating": 4.8,
+            "stock": 30,
+            "features": ["Genuine Leather", "Multiple Compartments", "Adjustable Strap"],
+            "tags": ["new-arrival", "featured"]
+        },
+        {
+            "id": 15,
+            "name": "Robot Vacuum Cleaner",
+            "price": 24999.99,
+            "category": "home",
+            "image": "Robot Vacuum Cleaner.jpg",
+            "description": "Smart robot vacuum with mapping technology",
+            "rating": 4.6,
+            "stock": 20,
+            "features": ["Smart Mapping", "App Control", "Auto Charging"],
+            "tags": ["smart-home", "trending"]
+        },
+        {
+            "id": 16,
+            "name": "Professional Camera Kit",
+            "price": 89999.99,
+            "category": "electronics",
+            "image": "Professional Camera Kit.jpg",
+            "description": "Complete professional camera kit with accessories",
+            "rating": 4.9,
+            "stock": 15,
+            "features": ["24MP Sensor", "4K Video", "Multiple Lenses"],
+            "tags": ["featured", "new-arrival"]
+        },
+        {
+            "id": 17,
+            "name": "Smart Fitness Band",
+            "price": 1999.99,
+            "category": "electronics",
+            "image": "Smart Fitness Band.jpg",
+            "description": "Advanced fitness tracker with health monitoring",
+            "rating": 4.5,
+            "stock": 50,
+            "features": ["Heart Rate Monitor", "Sleep Tracking", "Water Resistant"],
+            "tags": ["trending", "fitness"]
+        },
+        {
+            "id": 18,
+            "name": "Automatic Coffee Machine",
+            "price": 29999.99,
+            "category": "home",
+            "image": "Automatic Coffee Machine.jpg",
+            "description": "Premium automatic coffee machine with grinder",
+            "rating": 4.8,
+            "stock": 20,
+            "features": ["Built-in Grinder", "Multiple Drinks", "Touch Display"],
+            "tags": ["featured", "new-arrival"]
+        }
+    ]
+}

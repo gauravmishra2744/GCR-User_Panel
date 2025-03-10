@@ -1,0 +1,26 @@
+/* Orders page specific styles */
+.order-card {
+    margin-bottom: 1rem;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+}
+
+.order-header {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.order-items {
+    padding: 1rem;
+}
+
+.order-footer {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-top: 1px solid #dee2e6;
+}
+
+.badge {
+    text-transform: capitalize;
+}

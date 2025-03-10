@@ -1,0 +1,76 @@
+{
+    "additional_products": [
+        {
+            "id": 19,
+            "name": "Wireless Gaming Mouse",
+            "price": 4999.99,
+            "category": "electronics",
+            "image": "Wireless Gaming Mouse.webp",
+            "description": "High-precision wireless gaming mouse",
+            "rating": 4.8,
+            "stock": 35,
+            "features": ["16000 DPI", "RGB Lighting", "Ergonomic Design"],
+            "tags": ["gaming", "trending"]
+        },
+        {
+            "id": 20,
+            "name": "Smart Home Security Camera",
+            "price": 3499.99,
+            "category": "electronics",
+            "image": "Smart Home Security Camera.jpg",
+            "description": "HD security camera with night vision",
+            "rating": 4.6,
+            "stock": 40,
+            "features": ["1080p HD", "Night Vision", "Motion Detection"],
+            "tags": ["smart-home", "new-arrival"]
+        },
+        {
+            "id": 21,
+            "name": "Premium Sunglasses",
+            "price": 2499.99,
+            "category": "fashion",
+            "image": "Premium Sunglasses.webp",
+            "description": "Designer sunglasses with UV protection",
+            "rating": 4.7,
+            "stock": 45,
+            "features": ["UV Protection", "Polarized", "Premium Case"],
+            "tags": ["featured", "trending"]
+        },
+        {
+            "id": 22,
+            "name": "Smart Plant Pot",
+            "price": 1499.99,
+            "category": "home",
+            "image": "Smart Plant Pot.jpg",
+            "description": "Self-watering smart plant pot",
+            "rating": 4.5,
+            "stock": 30,
+            "features": ["Self-Watering", "App Control", "LED Indicators"],
+            "tags": ["smart-home", "new-arrival"]
+        },
+        {
+            "id": 23,
+            "name": "Mechanical Gaming Keyboard",
+            "price": 7999.99,
+            "category": "electronics",
+            "image": "Mechanical Gaming Keyboard.jpg",
+            "description": "RGB mechanical gaming keyboard",
+            "rating": 4.9,
+            "stock": 25,
+            "features": ["Cherry MX Switches", "Per-Key RGB", "Aluminum Frame"],
+            "tags": ["gaming", "featured"]
+        },
+        {
+            "id": 24,
+            "name": "Smart Door Lock",
+            "price": 12999.99,
+            "category": "home",
+            "image": "Smart Door Lock.jpg",
+            "description": "Fingerprint and PIN smart door lock",
+            "rating": 4.7,
+            "stock": 20,
+            "features": ["Fingerprint Scanner", "Mobile App", "Emergency Power"],
+            "tags": ["smart-home", "featured"]
+        }
+    ]
+}

@@ -1,0 +1,119 @@
+/* Seasonal collections and exclusive deals styles */
+.seasonal-section {
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    color: #2c3e50;
+}
+
+.seasonal-badge {
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 25px;
+    font-weight: 600;
+    color: #e74c3c;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    animation: pulse 2s infinite;
+}
+
+.countdown {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.countdown-item {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 1rem;
+    border-radius: 10px;
+    min-width: 80px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.countdown-item span {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.countdown-item small {
+    color: #7f8c8d;
+    font-size: 0.8rem;
+}
+
+.seasonal-highlight {
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.seasonal-highlight:hover {
+    transform: translateY(-5px);
+}
+
+.seasonal-item {
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.seasonal-item:hover {
+    transform: translateY(-5px);
+}
+
+.seasonal-discount {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #e74c3c;
+    color: white;
+    padding: 0.25rem 0.75rem;
+    border-radius: 15px;
+    font-weight: 600;
+    z-index: 2;
+}
+
+.seasonal-price {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.new-price {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #95a5a6;
+}
+
+.discount-badge {
+    background: #e74c3c;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .countdown-item {
+        min-width: 60px;
+        padding: 0.5rem;
+    }
+
+    .countdown-item span {
+        font-size: 1.2rem;
+    }
+
+    .seasonal-highlight {
+        margin-bottom: 1rem;
+    }
+}

@@ -1,0 +1,108 @@
+/* Enhanced section animations */
+.showcase-section {
+    position: relative;
+    overflow: hidden;
+}
+
+.showcase-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 200%;
+    height: 100%;
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(255, 255, 255, 0.2),
+        transparent
+    );
+    animation: shine 8s linear infinite;
+}
+
+@keyframes shine {
+    to {
+        transform: translateX(50%);
+    }
+}
+
+.product-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    z-index: 2;
+    animation: badgePulse 2s infinite;
+}
+
+@keyframes badgePulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.badge-featured {
+    background: linear-gradient(45deg, #FFD700, #FFA500);
+    color: #fff;
+}
+
+.badge-new {
+    background: linear-gradient(45deg, #4CAF50, #45D62E);
+    color: #fff;
+}
+
+.badge-trending {
+    background: linear-gradient(45deg, #FF4081, #FF1744);
+    color: #fff;
+}
+
+/* Enhanced hover effects */
+.product-card:hover .product-image-wrapper::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.4),
+        transparent
+    );
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+
+/* Product count indicator */
+.product-count {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    color: #666;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    animation: slideIn 0.5s ease-out;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}

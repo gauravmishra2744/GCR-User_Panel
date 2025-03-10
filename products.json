@@ -1,0 +1,212 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Premium Wireless Headphones",
+            "price": 2999.99,
+            "category": "electronics",
+            "image": "Premium Wireless Headphones.jpg",
+            "description": "High-quality wireless headphones with noise cancellation",
+            "rating": 4.5,
+            "stock": 50,
+            "features": ["Active Noise Cancellation", "40h Battery Life", "Quick Charge"],
+            "tags": ["trending", "featured"]
+        },
+        {
+            "id": 2,
+            "name": "Smart Watch",
+            "price": 4999.99,
+            "category": "electronics",
+            "image": "Smart Watch.jpg",
+            "description": "Feature-rich smartwatch with health tracking",
+            "rating": 4.3,
+            "stock": 30,
+            "features": ["Heart Rate Monitor", "GPS", "Water Resistant"],
+            "tags": ["new-arrival"]
+        },
+        {
+            "id": 3,
+            "name": "Premium Cotton T-Shirt",
+            "price": 599.99,
+            "category": "fashion",
+            "image": "Premium Cotton T-Shirt.webp",
+            "description": "Comfortable cotton t-shirt in various colors",
+            "rating": 4.2,
+            "stock": 100,
+            "features": ["100% Cotton", "Multiple Colors", "Slim Fit"],
+            "tags": ["best-seller"]
+        },
+        {
+            "id": 4,
+            "name": "Garden Tool Set",
+            "price": 1499.99,
+            "category": "home",
+            "image": "Garden Tool Set.jpeg",
+            "description": "Complete set of essential garden tools",
+            "rating": 4.7,
+            "stock": 25,
+            "features": ["Ergonomic Design", "Rust Resistant", "Storage Case Included"],
+            "tags": ["featured"]
+        },
+        {
+            "id": 5,
+            "name": "Educational Building Blocks",
+            "price": 899.99,
+            "category": "toys",
+            "image": "Educational Building Blocks.jpeg",
+            "description": "Creative building blocks for children",
+            "rating": 4.8,
+            "stock": 75,
+            "features": ["Age 3+", "100 Pieces", "Storage Box"],
+            "tags": ["best-seller"]
+        },
+        {
+            "id": 6,
+            "name": "Laptop Backpack",
+            "price": 1299.99,
+            "category": "fashion",
+            "image": "Laptop Backpack.jpg",
+            "description": "Water-resistant laptop backpack with multiple compartments",
+            "rating": 4.4,
+            "stock": 60,
+            "features": ["Water Resistant", "USB Charging Port", "Anti-theft Design"],
+            "tags": ["trending"]
+        },
+        {
+            "id": 7,
+            "name": "Smart LED Bulb",
+            "price": 799.99,
+            "category": "electronics",
+            "image": "Smart LED Bulb.jpg",
+            "description": "WiFi-enabled color changing smart bulb",
+            "rating": 4.6,
+            "stock": 40,
+            "features": ["16M Colors", "Voice Control", "Schedule Setting"],
+            "tags": ["smart-home"]
+        },
+        {
+            "id": 8,
+            "name": "Remote Control Car",
+            "price": 1999.99,
+            "category": "toys",
+            "image": "Remote Control Car.jpg",
+            "description": "High-speed remote control car with rechargeable battery",
+            "rating": 4.5,
+            "stock": 35,
+            "features": ["4WD", "LED Lights", "Rechargeable"],
+            "tags": ["featured"]
+        },
+        {
+            "id": 9,
+            "name": "Gaming Keyboard",
+            "price": 3499.99,
+            "category": "electronics",
+            "image": "Gaming Keyboard.jpg",
+            "description": "Mechanical gaming keyboard with RGB lighting",
+            "rating": 4.7,
+            "stock": 45,
+            "features": ["Mechanical Switches", "RGB Backlight", "Anti-ghosting"],
+            "tags": ["gaming", "new-arrival"]
+        },
+        {
+            "id": 10,
+            "name": "Air Purifier",
+            "price": 7999.99,
+            "category": "home",
+            "image": "Air Purifier.jpg",
+            "description": "Smart air purifier with HEPA filter",
+            "rating": 4.8,
+            "stock": 20,
+            "features": ["HEPA Filter", "Auto Mode", "Air Quality Sensor"],
+            "tags": ["smart-home", "featured"]
+        },
+        {
+            "id": 11,
+            "name": "Yoga Mat",
+            "price": 899.99,
+            "category": "sports",
+            "image": "Yoga Mat.jpg",
+            "description": "Premium non-slip yoga mat",
+            "rating": 4.6,
+            "stock": 80,
+            "features": ["Non-slip Surface", "Eco-friendly", "Extra Thick"],
+            "tags": ["fitness"]
+        },
+        {
+            "id": 12,
+            "name": "Coffee Maker",
+            "price": 5999.99,
+            "category": "home",
+            "image": "Coffee Maker.webp",
+            "description": "Programmable coffee maker with thermal carafe",
+            "rating": 4.4,
+            "stock": 30,
+            "features": ["24h Timer", "Keep Warm", "Auto Shutoff"],
+            "tags": ["appliances"]
+        }
+    ],
+    "categories": [
+        {
+            "id": "electronics",
+            "name": "Electronics",
+            "icon": "fas fa-laptop",
+            "color": "#FF6B6B",
+            "description": "Latest gadgets and electronic devices"
+        },
+        {
+            "id": "fashion",
+            "name": "Fashion",
+            "icon": "fas fa-tshirt",
+            "color": "#4ECDC4",
+            "description": "Trendy clothing and accessories"
+        },
+        {
+            "id": "home",
+            "name": "Home & Garden",
+            "icon": "fas fa-home",
+            "color": "#45B7D1",
+            "description": "Everything for your home"
+        },
+        {
+            "id": "toys",
+            "name": "Toys & Games",
+            "icon": "fas fa-gamepad",
+            "color": "#96CEB4",
+            "description": "Fun for all ages"
+        },
+        {
+            "id": "sports",
+            "name": "Sports & Fitness",
+            "icon": "fas fa-basketball-ball",
+            "color": "#FFEEAD",
+            "description": "Sports equipment and fitness gear"
+        }
+    ],
+    "tags": [
+        {
+            "id": "trending",
+            "name": "Trending Now",
+            "color": "#FF6B6B"
+        },
+        {
+            "id": "featured",
+            "name": "Featured",
+            "color": "#4ECDC4"
+        },
+        {
+            "id": "new-arrival",
+            "name": "New Arrival",
+            "color": "#45B7D1"
+        },
+        {
+            "id": "best-seller",
+            "name": "Best Seller",
+            "color": "#96CEB4"
+        },
+        {
+            "id": "smart-home",
+            "name": "Smart Home",
+            "color": "#FFEEAD"
+        }
+    ]
+}
