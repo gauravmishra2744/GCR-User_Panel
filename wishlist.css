@@ -1,0 +1,42 @@
+/* Wishlist page specific styles */
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.wishlist-empty {
+    text-align: center;
+    padding: 2rem;
+    background-color: #f8f9fa;
+    border-radius: 0.25rem;
+    margin: 1rem 0;
+}
+
+.card .btn {
+    text-transform: none;
+}
+
+.price-tag {
+    font-size: 1.25rem;
+    color: #212529;
+    font-weight: bold;
+}
+
+.card-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.stock-status {
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+}
+
+.stock-status.in-stock {
+    color: #198754;
+}
+
+.stock-status.out-of-stock {
+    color: #dc3545;
+}
